@@ -1,0 +1,105 @@
+@media screen{ /*電腦*/
+    body {
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        padding-top:0 !important;
+    }
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: x-large;
+        font-weight: bold;
+        color: #1e81c4;
+    }
+    h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: #1e81c4;
+    }
+    h3 {
+        color: #b035bb;
+        font-size: medium;
+        font-weight:bold;
+    }
+    .style1 {
+        color: #FFFFFF;
+        line-height: 10px;
+    }
+
+    body,td,th {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #CCCCCC;
+        line-height: 28px;
+    }
+}
+@media screen and (max-width:480px){/*手機*/
+    body {
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        padding-top:0 !important;
+    }
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: x-large;
+        font-weight: bold;
+        color: #1e81c4;
+    }
+    h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: #1e81c4;
+    }
+    h3 {
+        color: #b035bb;
+        font-size: medium;
+        font-weight:bold;
+    }
+    .style1 {
+        color: #FFFFFF;
+        line-height: 10px;
+    }
+
+    body,td,th {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #CCCCCC;
+        line-height: 28px;
+    }
+}
+@media screen and (min-width:481px) and (max-width:768px){/*平板*/
+    body {
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        padding-top:0 !important;
+    }
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: x-large;
+        font-weight: bold;
+        color: #1e81c4;
+    }
+    h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: #1e81c4;
+    }
+    h3 {
+        color: #b035bb;
+        font-size: medium;
+        font-weight:bold;
+    }
+    .style1 {
+        color: #FFFFFF;
+        line-height: 10px;
+    }
+
+    body,td,th {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #CCCCCC;
+        line-height: 28px;
+    }
+}
