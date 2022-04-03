@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Typing game 1.0</title>
+</head>
+<body>
+    <input type="text" id="message">
+
+    <script>
+        let abc_output = document.getElementById('message');
+        abc_output.addEventListener('keydown', logkey => {
+            console.log(event.key);
+        });
+    </script>
+</body>
+</html>
