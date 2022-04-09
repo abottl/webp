@@ -1,43 +1,50 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Typing game 2.0</title>
-  <link href="style.css" rel="stylesheet" type="text/css" >
-  <script type="text/javascript" src="script.js">
-    
-  </script>
-  
-  
 </head>
+
 <body>
-  <input type="text" id="message">
+  <div class="t"> Typing game 2.0</div>
+  <div id="char"> Press any key on the keyboard to start the game.</div>
   <script>
-    const x = document.getElementById("message");
-    x.addEventListener("keydown", startGame);
+    let alp = '';
+    var charBox = document.getElementById('char');
 
-    function startGame() { 
-      //生成1個字母
-      let alp = [];
-   	  let RandomNumber = Math.floor(Math.random() * 26);//Math.floor():無條件捨去 Math.random():回傳0~1間隨機小數
-		  //String.fromCharCode():ASCII傳回相對應的字母並push
-      result.push(String.fromCharCode(65+RandomNumber));//'A'的ASCII=65, A~Z的ASCII=65+ 0~25;
-	    return result.join(alp.unshift);
-      console.log(alp);
+    //生成1個字母
+    function startGame() {
+      //Math.floor():無條件捨去 Math.random():回傳0~1間隨機小數
+      let RandomNumber = Math.floor(Math.random() * 26);
+      //String.fromCharCode():ASCII傳回相對應的字母
+      //'A'的ASCII=65, A~Z的ASCII=65+ 0~25;
+      var allAlp = String.fromCharCode(65 + RandomNumber);
+      alp = allAlp + alp;
     }
-    setInterval("startGame()","400");
 
-    let abc_output = document.getElementById('message');
-    abc_output.addEventListener('keydown', logkey => {
-      if(event.key=alp[alp.length - 1]){ //打對:刪除最後一個字母
-        var last = alp.pop();
+    //生成字母
+    var a = true;
+    document.addEventListener('keyup', first);
+    function first() {
+      if (a) {
+        setInterval("startGame()", "400");
       }
-    });
-  </script>  
-  <div class="input_area">    
-    <p>Press any key on the keyboard to start the game.</p> 
-  </div>   
-  
+      a = false;
+    }
+
+    //輸入正確
+    document.addEventListener('keydown', keyDown);
+
+    function keyDown(e) {
+      var last = alp.slice(- 1);
+      if (String.fromCharCode(e.keycode - 32) == last || String.fromCharCode(e.keyCode) == last) {
+        alp = alp.slice(0, -1);
+      }
+      char.textContent = alp;
+    }
+  </script>
 </body>
+
 </html>
