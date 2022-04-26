@@ -1,0 +1,36 @@
+.con{
+    background-color: #fcfcfc;
+}
+.title{
+    color: #1c79ca; 
+    padding: 15px; 
+    font-weight: bolder; 
+    font-size: 50px; 
+    text-align: center;
+    
+}
+.stationName{
+    color: #19f04f; 
+    padding: 10px;
+    font-weight: bolder; 
+    font-size: 30px; 
+    text-align: center;
+    border:5px double #b6ff47;
+}
+.pr{
+    text-align: center;
+    font-weight: bolder; 
+    font-size: 30px;
+}
+.ti{
+    text-align: center;
+    font-weight: bolder; 
+    font-size: 30px;
+    text-align: center;
+}
+.st{
+    text-align: center;
+    font-weight: bolder; 
+    font-size: 30px;
+    text-align: center;
+}
