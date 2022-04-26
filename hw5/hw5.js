@@ -11,7 +11,7 @@ var stationdata = $.getJSON(stationdata_url);
 stationdata.done(function(resultstation) {
   $.each(resultstation, function(k, z) {
     // console.log(k,z.StationName.Zh_tw);
-    $('#Station').append($('<li> A' + (k + 1) + z.StationName.Zh_tw + '</il>'))
+    $('#Station').append($('<div> A' + (k + 1) + z.StationName.Zh_tw + '</div>'))
   });
 });
 
@@ -20,7 +20,7 @@ price.done(function(resultprice) {
   $.each(resultprice, function(e, x) {
     if (e < 20) {
       // console.log(e,x.Fares[0].Price);
-      $('#Price').append($('<li>' + x.Fares[0].Price + '</il>'))
+      $('#Price').append($('<div>' + x.Fares[0].Price + '</div>'))
     }
   })
 });
@@ -42,8 +42,8 @@ timedata.done(function(resulttime) {
       $.each(number, function(x, number) {
         console.log(j, y.TravelTimes[number].RunTime);
         $('#Time').append(
-            $('<li>A' + (x + 1) + '>>A' + (x + 2) + ' ' +
-              y.TravelTimes[number].RunTime + '</il>'))
+            $('<div>A' + (x + 1) + '>>A' + (x + 2) + ' ' +
+              y.TravelTimes[number].RunTime + '</div>'))
       })
     }
   });
