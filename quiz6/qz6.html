@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>qz6</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>clock</h1>
+  <div class ="cl">
+  
+  <script>
+    setInterval(() => {
+    let neww = new Date();
+    sec = neww.getSeconds();
+    min = neww.getMinutes();
+    hour = neww.getHours();
+    console.log(hour+':' +min+':'+sec);
+  },1000);
+  </script>
+</body>
+
+</html>
