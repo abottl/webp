@@ -1,0 +1,13 @@
+.con {
+    border: 5px rgb(60, 127, 227) solid;
+    width: 300px;
+    height: 300px;
+}
+
+.name {
+    color: #000;
+}
+
+.in {
+    border: 2px rgb(60, 127, 227) solid;
+}
