@@ -1,20 +1,21 @@
-import './hw7_CGU_login.css';
+import React from 'react';
 
 const CGU_Login=() => {
-    var output=[];
-    output.push(
+  return (
+      <form>
             <div className = 'con'>
                 <h1>CGU Login</h1>
                 <div>
-                    <label style= "name">User Name </label><input type = 'text' style = 'in' id='name'></input>
+                    <label>User Name </label>
+                    <input type = 'text' id='name'></input>
                 </div>
                 <div>
-                    <label style = 'password'>Password </label><input type = "password" style = "in" id="password"></input>
+                    <label>Password </label>
+                    <input type = "password" id="password"></input>
                 </div>
-                <button style = "login">登入</button>
+                <button id = "login">登入</button>
             </div>
-        )
-    return output;
+        </form>);
 }
 
 export default CGU_Login;
