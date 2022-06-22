@@ -1,0 +1,27 @@
+.a {
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+.fi {
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 50px;
+    font-size:2em;
+    font-family: Microsoft JhengHei;
+    color: rgb(48, 55, 193);
+}
+
+.si {
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 50px;
+    font-size: medium;
+    font-family: Microsoft JhengHei;
+    color: rgb(255, 0, 255);
+}

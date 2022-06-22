@@ -1,0 +1,25 @@
+.a{
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.login-register{
+    width: 70px;
+    height: 35px;
+    border: 1px solid rgb(63, 86, 169);
+    border-radius: 5px;
+    background-color: rgba(168, 170, 169, 0.586);
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 50px;
+}
+.login-signin{
+    width: 70px;
+    height: 35px;
+    border: 1px solid rgb(63, 86, 169);
+    border-radius: 5px;
+    background-color: rgb(168, 170, 169, 0.586);
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 50px;
+}

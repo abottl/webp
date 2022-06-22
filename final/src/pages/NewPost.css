@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+.con{
+    margin-left: 600px;
+    margin-top: 80px;
+    width: auto;
+}
+.title{
+    font-size: 35px;
+}
+.t{
+    color: rgb(50, 24, 109);
+}
+.newpost_content-input{
+    margin-top: 5px;
+    font-size: 2px;
+    background-color: rgb(175, 227, 243);
+    border: 1px solid rgb(244, 245, 245);
+    border-radius: 12px;
+    letter-spacing: 1px;
+    padding-top: 100px;
+
+}
+.space{
+    width: 415px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 1px solid rgb(187, 228, 226);
+    display: flex;
+}
+.newpost_img-btn{
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(216, 168, 235);
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.newpost_img-btn:hover{
+    color: white;
+    background-color: rgb(184, 119, 245);
+}
+.newpost_send{
+    font-family: 'Joan', serif;
+    width: 70px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(244, 245, 245);
+    background-color: rgba(243, 159, 211, 0.786);
+    cursor: pointer;
+    margin-left: 490px;
+}
+.newpost_send:hover{
+    color: white;
+    background-color: rgb(221, 187, 102);
+}
